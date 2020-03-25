@@ -1,0 +1,33 @@
+input, label {
+display:block;
+}
+body{
+  background-color: lightgray;
+}
+#logo{
+  position: absolute;
+
+}
+#bluebg{
+  background-color: blue;
+  height: 43%;
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  left: 0;
+      }
+#loginbox{
+  border-radius: 5px;
+  width: 33%;
+  height: 80%;
+  margin-top: 20%;
+  left: 33%;
+  background-color: white;
+  position: relative;
+}
+.input{
+  margin: 5% 9% 5% 9%;
+  width: 80%;
+}
