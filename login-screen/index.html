@@ -2,49 +2,27 @@
 <html>
   <head>
     <title>Creative Company Login Page</title>
-    <style>
-      body{
-        background-color: lightgray;
-      }
-      #logo{
-        position: absolute;
-        margin 10px;
-      }
-      #bluebg{
-        background-color: blue;
-        height: 43%;
-        width: 100%;
-        position: fixed;
-        margin: 0;
-        padding: 0;
-        top: 0;
-        left: 0;
-            }
-      #loginbox{
-        border-radius: 5px;
-        width: 33%;
-        height: 60%;
-        margin-top: 20%;
-        left: 33%;
-        background-color: white;
-        position: relative;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" type="text/css">
   </head>
   <body>
-      <div id="bluebg">
-      </div>
-      <div id="loginbox">
-          <img id="logo" src="logo.png" alt="creative company logo">
-          <label for="Username ou email">
-            <input type="text" name="login" value="">
-          </label>
-            <input type="password" name="password" value="">
-            <input type="checkbox" name="remember-me" value="">
-            <button type="button" name="LOGIN"></button>
-            <a href="#">Register</a>
-            <a href="#">Forgot your password?</a>
-            <a href="#">Back to WPBrigade</a>
-      </div>
-  </body>
+    <div id="bluebg">
+    </div>
+    <div id="loginbox">
+      <img id="logo" src="creative-company-logo.jpg" alt="creative company logo">
+      <form action="index.html" method="post">
+        <div id="formdiv">
+            <label class ="loginput" for="login">Username or email</label>
+            <input class="input" type="text" name="login" value="">
+            <label class ="loginput" for="login">Password</label>
+            <input class="input" type="password" name="password" value="">
+        </div>
+        <input id="checkbox" type="checkbox" name="remember-me" value="Remember me">
+        <label id ="remember" for="remember-me">Remember me</label>
+        <button type="button" name="LOGIN">LOGIN</button>
+        <a id="register" href="#">Register</a>
+        <a id="passforgot" href="#">Forgot your password?</a>
+        <a id="brigadeback" href="#">&larr; Back to WPBrigade</a>
+      </form>
+  </div>
+</body>
 </html>

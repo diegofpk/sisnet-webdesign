@@ -1,15 +1,18 @@
-input, label {
-display:block;
-}
 body{
   background-color: lightgray;
+  color: gray;
+  text-decoration: none;
+  font-size: 12px;
 }
 #logo{
-  position: absolute;
-
+  position: static;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 9%;
 }
 #bluebg{
-  background-color: blue;
+  background-color: #263466;
   height: 43%;
   width: 100%;
   position: fixed;
@@ -19,15 +22,77 @@ body{
   left: 0;
       }
 #loginbox{
+  margin-left: 6%;
+  padding-bottom: 2%;
+  margin-bottom: auto;
   border-radius: 5px;
-  width: 33%;
+  width: 26%;
   height: 80%;
-  margin-top: 20%;
-  left: 33%;
+  margin-top: 8%;
+  left: 30%;
   background-color: white;
   position: relative;
 }
+#formdiv{
+  top: 300px;
+}
+#formdiv input, label {
+display:block;
+}
 .input{
-  margin: 5% 9% 5% 9%;
-  width: 80%;
+  color: gray;
+  position: relative;
+  margin: 5% 12.5% 5% 12.5%;
+  width: 75%;
+  height: 30px;
+}
+button{
+  border-radius: 0;
+  box-shadow: 0;
+  border: 0;
+  font-size: 10px;
+  color: white;
+  font-weight: bold;
+  background-color: #263466;
+  position: static;
+  height: 25px;
+  width: 72%;
+  margin-left: 12.5%;
+  margin-bottom: 5%;
+}
+a{
+  display: inline;
+  color: gray;
+  text-decoration: none;
+  font-size: 11px;
+}
+.loginput{
+  font-size: 14px;
+  margin-bottom: -10px;
+  margin-left: 12.5%;
+}
+#checkbox{
+  margin-left: 12.5%;
+  position: static;
+  border: 1px solid #ccc;
+  border-radius: 0px;
+}
+#remember{
+  font-size: 11px;
+  position: static;
+  margin-top: -5%;
+  margin-left: 18%;
+  margin-bottom: 5%;
+}
+#register{
+  margin-left: 12.5%;
+}
+#passforgot{
+  margin-left: 32%;
+  margin-right: 10%;
+}
+#brigadeback{
+  margin-top: 10%;
+  margin-left: 12.5%;
+  margin-bottom: 10%;
 }
