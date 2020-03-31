@@ -1,0 +1,78 @@
+body{
+  font-family: sans-serif;
+  background-color: grey;
+}
+div{
+  background-color: white;
+  display: inline-block;
+  width: 20%;
+  margin: 0.05%;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table, th, td, tr{
+  width: 100%;
+  text-align: center;
+}
+td{
+  text-decoration: none;
+  color: grey;
+  font-size: 1vw;
+  padding: 3% 3%;
+}
+button{
+  margin: 15% 27%;
+  background-color: white;
+  border:1px solid;
+  border-radius: 5px;
+  padding: 5% 7%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.3vw;
+}
+.plan{
+  font-size: 2.4vw;
+  padding: 10px;
+}
+.price{
+  font-size: 3.2vw;
+  color: white;
+  font-weight: bold;
+}
+#basic .price{
+  background-color: green;
+}
+#basic button{
+  color: green;
+}
+#standard .price{
+  background-color: purple;
+}
+#standard button{
+  color: purple;
+}
+#premium .price{
+  background-color: blue;
+}
+#premium button{
+  color: blue;
+}
+#basic{
+  color: green;
+  border-top: 3px green solid;
+  border-bottom: 3px green solid;
+}
+#standard{
+  color: purple;
+  border-top: 3px purple solid;
+  border-bottom: 3px purple solid;
+}
+#premium{
+  color: blue;
+  border-top: 3px blue solid;
+  border-bottom: 3px blue solid;
+}
