@@ -1,0 +1,87 @@
+@font-face {
+	font-family: 'RoundCornerFont';
+	src: url('RoundCornerFont.ttf');
+	src:
+		local('RoundCornerFont'),
+		url('RoundCornerFont.ttf')
+		format('opentype');
+	font-weight: bold;
+}
+html{
+  zoom: 60%;
+  font-family: 'RoundCornerFont', sans-serif;
+}
+div{
+  display: inline-block;
+}
+h1{
+  font-size: 30px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+#pagina{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0 auto;
+  width: 710px;
+  height: 975px;
+}
+#global{
+  width: 100%;
+  height: 100%;
+  border: 2px solid gray;
+
+}
+#global-texto{
+  color: gray;
+
+}
+#topo{
+  margin-left: 10px;
+  margin-right: 5px;
+  width: 685px;
+  border: 2.3px solid #e50c95;
+  height: 150px;
+}
+#topo-texto{
+  line-height: 110px;
+  color: #e50c95;
+  font-size: 30px;
+}
+#conteudo{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 410px;
+  border: 2px solid #9adac7;
+  height: 500px;
+}
+#conteudo-texto{
+  line-height: 480px;
+  color: #9adac7;
+  font-size: 30px;
+}
+#menu{
+  margin-left: 10px;
+  margin-top: 1.5%;
+  width: 255px;
+  border: 2px solid #99cfea;
+  height: 500px;
+}
+#menu-texto{
+  line-height: 480px;
+  color: #99cfea;
+  font-size: 30px;
+}
+#rodape{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 685px;
+  border: 2px solid #ff8d20;
+  height: 200px;
+}
+#rodape-texto{
+  line-height: 150px;
+  color: #ff8d20;
+  font-size: 30px;
+}
