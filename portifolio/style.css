@@ -1,0 +1,30 @@
+body{
+       padding-top: 60px;
+       padding-bottom: 40px;
+   }
+   .fixed-header{
+       width: 100%;
+       position: fixed;
+       background: #fff;
+       padding: 10px 0;
+       color: #000;
+   }
+   .fixed-header{
+       top: 0;
+   }
+   .fixed-footer{
+       bottom: 0;
+   }
+   .container{
+       width: 80%;
+       margin: 0 auto; /* Center the DIV horizontally */
+   }
+   #toplogo{
+     top: 20px;
+   }
+   nav a{
+       color: #000;
+       text-decoration: none;
+       padding: 7px 25px;
+       display: inline-block;
+   }
