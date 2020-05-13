@@ -1,0 +1,83 @@
+
+header{
+  width: 100%;
+  margin: 0 none;
+}
+.topbar{
+  border: 10px solid black;
+  width: 100%;
+  height: 24px;
+  background-color: #000;
+  overflow: hidden;
+}
+.topbar img{
+  height: 30px;
+}
+.topmenu{
+  margin: 0px;
+  text-align: center;
+  display:inline-block;
+  vertical-align:top;
+}
+.topmenu a{
+  font-size: 13px;
+  margin-left: 17px;
+  text-decoration: none;
+  color: lightgrey;
+}
+#content{
+  margin-left: 12.5%;
+  width: 75%;
+  left: 300px;
+}
+.post-entry{
+  margin-bottom: 45px;
+  display: inline-block;
+  width: 70%;
+  margin-left: 15%;
+}
+.post-content{
+  width: 70%;
+  display: inline-block;
+
+}
+.post-thumb{
+    display: inline-block;
+  width: 28%;
+}
+.post-thumb img{
+  width: 200px;
+  height: 200px;
+}
+.prehead{
+  color: grey;
+  font-size: 12px;
+}
+.title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.excerpt{
+  color: grey;
+  font-size: 19px;
+  margin-top: 7px;
+}
+.post-credits{
+  width: 70%;
+}
+.post-icons{
+  width: 20%;
+}
+.author{
+  margin-top: 10px;
+  color: black;
+}
+.date{
+  margin-top: 7px;
+  color: grey;
+}
+footer{
+  background-color: #000;
+  width: 100%;
+  height: 50px;
+}
