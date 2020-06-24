@@ -1,0 +1,190 @@
+/*
+ipad pro 1024 x 1366
+galaxy S5 360 x 640
+*/
+@font-face {
+  font-family: 'VT323';
+  src:
+	url('VT323.ttf')
+}
+p{
+  color: grey;
+  font-family: 'VT323', sans-serif;
+  text-align:center;
+  position: relative;
+
+}
+
+nav{
+  background-color: #4e96d7;
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  margin 0;
+  border 0 none;
+  top: -1%;
+  left: -0px;
+}
+header{
+  position: absolute;
+  background-color: #aed6fd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.content{
+  position: absolute;
+  background-color: #eaedf0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature1{
+  position: absolute;
+  background-color: #f8ce93;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature2{
+  position: absolute;
+  background-color: #f3989d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.feature3{
+  position: absolute;
+  background-color: #c6c6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signup{
+  background-color: #d4e9fd;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 999px) {
+      p{
+        font-size: 9em;
+      }
+      header{
+        height: 35%;
+        top: 9%;
+        left: -0px;
+      }
+      .content{
+        height: 80%;
+        top: 44%;
+        left: -0px;
+      }
+      .feature1{
+        width: 100%;
+        height: 30%;
+        top: 144%;
+        left: 0%;
+      }
+      .feature2{
+        width: 100%;
+        height: 30%;
+        top: 174%;
+        left: 0%;
+      }
+      .feature3{
+        width: 100%;
+        height: 30%;
+        top: 204%;
+        left: 0%;
+      }
+      .signup{
+        width: 100%;
+        height: 30%;
+        top: 114%;
+        left: 0%;
+      }
+}
+@media only screen and (min-width: 1000px) {
+
+    p{
+      font-size: 7em;
+    }
+    header{
+      height: 35%;
+      top: 9%;
+      left: -0px;
+    }
+    .content{
+      height: 80%;
+      top: 44%;
+      left: -0px;
+    }
+    .feature1{
+      width: 50%;
+      height: 40%;
+      top: 114%;
+      left: 50%;
+    }
+    .feature2{
+      width: 50%;
+      height: 40%;
+      top: 154%;
+      left: 0%;
+    }
+    .feature3{
+      width: 50%;
+      height: 40%;
+      top: 154%;
+      left: 50%;
+    }
+    .signup{
+      width: 50%;
+      height: 40%;
+      top: 114%;
+      left: 0%;
+    }
+}
+@media only screen and (min-width: 1360px) {
+  p{
+    font-size: 5em;
+  }
+  header{
+    height: 65%;
+    top: 9%;
+    left: -0px;
+  }
+  .content{
+    height: 65%;
+    top: 180%;
+    left: -0px;
+  }
+  .feature1{
+    width: 33.3%;
+    height: 75%;
+    top: 74%;
+    left: -0px;
+  }
+  .feature2{
+    width: 33.3%;
+    height: 75%;
+    top: 74%;
+    left: 66.6%;
+  }
+  .feature3{
+    width: 33.3%;
+    height: 75%;
+    top: 74%;
+    left: 33.3%;
+  }
+  .signup{
+    width: 100%;
+    height: 33%;
+    top: 149%;
+    left: 0%;
+  }
+}

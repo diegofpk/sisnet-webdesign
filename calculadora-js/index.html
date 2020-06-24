@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript">
+    function calculadora() {
+       var n1 = parseFloat(document.getElementById('val-a').value);
+       var n2 = parseFloat(document.getElementById('val-b').value);
+       var resultado = 0;
+       var e = document.getElementById("op");
+       var strUser = e.options[e.selectedIndex].value;
+       if e.options[e.selectedIndex].value == "1"{
+         resultado = n1 + n2;
+       }
+
+       if (document.getElementsByName('op')[0].checked) {
+           resultado = n1 + n2;
+       }
+       if (document.getElementsByName('op')[1].checked) {
+           resultado = n1 - n2;
+       }
+       if (document.getElementsByName('op')[2].checked) {
+           resultado = n1 * n2;
+       }
+       if (document.getElementsByName('op')[3].checked) {
+           resultado = n1 / n2;
+       }
+       document.getElementById('resultado').value = resultado;
+    }
+</script>
+  </head>
+  <body>
+    <section>
+      <h1>Calculadora</h1>
+      <label for="val-a"><input id="val-a" type="number"></label>
+      <label for="val-b"><input id="val-b" type="number"></label>
+      <label for="op"><select class="op" id="op" name="op">
+        <option value="1">+</option>
+        <option value="2">-</option>
+        <option value="3">/</option>
+        <option value="4">x</option>
+      </select>
+    </label>
+    <button onclick="calculadora()" type="button" name="button">Calcular</button>
+    <div>
+      <input type="text" name="resultado" name="resultado" value="">
+    </div>
+    </section>
+  </body>
+</html>
